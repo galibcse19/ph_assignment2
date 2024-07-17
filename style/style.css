@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.body-font{
+    font-family: "Inter", sans-serif;
+    margin: 57px 190px;
+    background-color: black;
+    color: white;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand h3 {
+    font-size: 36px;
+    color: #e6533c;
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    border: 1px solid #ffffff1a;
+    padding: 10px 14px;
+    border-radius: 39px;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 46px;
+    font-size: bold;
+}
+
+.navbar-links .home{
+    background-color: #e6533c;
+}
+.navbar-icon{
+    display: none; 
+    color: white;
+    background-color: black;
+}
+/* banner section */
+.banner{
+    margin: 96px 0 92px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-section1{
+    width: 520px;
+    height: 440px;
+}
+.banner-head{
+    font-size: 76px;
+}
+.banner-parapraph{
+    margin: 28px 0;
+    opacity: .7;
+}
+.banner-button1{
+    padding: 16px 40px;
+    background-color: #e6533c;
+    border-radius: 42px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    margin-right: 14px;
+}
+.banner-button2{
+    padding: 16px 40px;
+    border-radius: 42px;
+    color: white;
+    background-color: black;
+    font-size: 16px;
+    border: 1px white solid;
+}
+.banner-button3{
+    padding: 20px;
+    border-radius: 50%;
+    background-color: #e6533c ;
+    border: none;
+}
+ 
+/* .banner-section2{
+    padding: 60px;
+    padding-left: 96px;
+    background-image: url("../images/images 2.png");
+    width: 200px;
+    height: 480px;
+} */
+/* /* .inside-data1{
+    background-color: #ffffff1a;
+    padding: 17px 20px;
+    border: 1px solid #ffffff1a;
+    border-radius: 12px;
+    /* margin-left: -400px; */
+/* } */
+#banner-button4{
+    background-color: #ffffff1a;
+    color: white;
+    padding: 12px 24px 12px 0;
+    border: 1px solid #ffffff1a;
+    border-radius: 12px;
+    
+} 
+
+@media (max-width:576px) {
+    .body-font{
+        margin: 52px 20px;
+    }
+    .navbar-links{
+        display: none;
+    }
+    .navbar-icon{
+        display: block;
+        /* width: 18px; */
+    }
+    .navbar-icon i{
+        font-size: 25px;
+    }
+}
