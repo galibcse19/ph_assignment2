@@ -3,6 +3,8 @@
     margin: 0;
     padding: 0;
 }
+
+/* body section */
 .body-font{
     font-family: "Inter", sans-serif;
     margin: 57px 190px;
@@ -80,35 +82,49 @@
     font-size: 16px;
     border: 1px white solid;
 }
+.banner-section2{
+    width: 350px;
+    height: 580px;
+   
+    background-image: url("../images/images 2.png");
+}
 .banner-button3{
     padding: 20px;
     border-radius: 50%;
     background-color: #e6533c ;
     border: none;
 }
- 
-/* .banner-section2{
-    padding: 60px;
-    padding-left: 96px;
-    background-image: url("../images/images 2.png");
-    width: 200px;
-    height: 480px;
-} */
-/* /* .inside-data1{
-    background-color: #ffffff1a;
-    padding: 17px 20px;
-    border: 1px solid #ffffff1a;
-    border-radius: 12px;
-    /* margin-left: -400px; */
-/* } */
+.button-fa-icon{
+    display: none;
+}
 #banner-button4{
     background-color: #ffffff1a;
     color: white;
-    padding: 12px 24px 12px 0;
+    padding: 12px 0px 12px 12px;
     border: 1px solid #ffffff1a;
     border-radius: 12px;
+    width: 150px;
+    margin-top: 140px;
+    margin-left: 220px;
     
-} 
+}
+.button4-span{
+    font-size: 40px;
+    margin-bottom: 4px;
+}
+.inside-data2{
+    background-color: #ffffff1a;
+    padding: 12px 0px 12px 12px;
+    color: white;
+    border: 1px solid #ffffff1a;
+    border-radius: 12px;
+    width: 193px;
+    display: flex;
+    align-items: center;
+    margin-top: 180px;
+    margin-left: -100px;
+}    
+ 
 
 @media (max-width:576px) {
     .body-font{
@@ -119,9 +135,64 @@
     }
     .navbar-icon{
         display: block;
-        /* width: 18px; */
+        /* margin-right: -40px; */
     }
     .navbar-icon i{
         font-size: 25px;
     }
+    .banner{
+        /* margin: 96px 0 92px 0; */
+        display: inline;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .banner-section1{
+        width: 350px;
+        height: 335px;
+    }
+    .two-button{
+        display: flex;
+        justify-content: space-between;
+    }
+    .banner-button1{
+        padding: 8px 20px;
+        font-size: 18px;
+    }
+    .banner-button2{
+        /* margin-left: 4px; */
+        padding: 12px 20px;
+        font-size: 18px;
+    }
+    .banner-button3{
+        padding: 16px;
+    }
+    .button-fa-icon{
+        display: block;
+        color: wheat;
+    }
+    .banner-head{
+        font-size: 36px;
+        margin-top: 50px;
+    }
+    .banner-section2{
+        width: 350px;
+        height: 580px;
+        
+        margin-top: -120px;
+    }
+    #banner-button4{
+        /* margin-top: 300px; */
+        margin-left: 180px;
+        width: 130px;  
+    }
+    .button4-span{
+        font-size: 20px;
+    }
+    .inside-data2{
+        width: 170px;
+        margin-top: 180px;
+        /* padding-left: 100px; */
+        margin-left: 20px;
+    }
+
 }
