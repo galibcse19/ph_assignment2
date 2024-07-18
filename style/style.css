@@ -11,6 +11,8 @@
     background-color: black;
     color: white;
 }
+
+/* navbar section  */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -122,8 +124,81 @@
     align-items: center;
     margin-top: 180px;
     margin-left: -100px;
-}    
- 
+} 
+
+/* habit section  */
+
+.habit-section{
+    text-align: center;
+}
+.card-section{
+    display: flex;
+    justify-content:space-around;
+    /* align-items: center; */
+    text-align: center;
+    gap: 40px;
+}
+.habit-head{
+    font-size: 48px;
+    margin-bottom: 14px;
+}
+.habit_paragraph{
+    font-size: 14px;
+    opacity: .7;
+    line-height: 24px;
+    margin: 14px 0;
+    margin-bottom: 54px;
+}
+.card-image{
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+.card-head{
+    font-size: 18px;
+    margin-bottom: 6px;
+}
+.card-paragraph{
+    font-size: 14px;
+    line-height: 18px;
+    opacity: .7;
+}
+.run-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    border-radius: 18px;
+    background: #222222;
+}
+.run-image{
+    width: 366px;
+    height: 312px;
+    border-radius: 18px;
+    margin: 30px 32px 29px 0px;
+} 
+.run-subsection{
+    margin: 40px 165px 40px 52px;
+}
+.run-head{
+    font-size: 48px;
+    line-height: 60px;
+    margin-bottom: 14px;
+}
+.run-paragraph{
+    opacity: .7;
+    margin-bottom: 34px;
+    line-height: 24px;
+}
+.run-button{
+    padding: 16px 60px;
+    background-color: #e6533c;
+    border-radius: 42px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    margin-right: 14px;
+}
+
+/* responsive design  */
 
 @media (max-width:576px) {
     .body-font{
@@ -134,7 +209,7 @@
     }
     .navbar-icon{
         display: block;
-        /* margin-right: -40px; */
+        margin-right: -40px;
     }
     .navbar-icon i{
         font-size: 25px;
@@ -176,11 +251,9 @@
     .banner-section2{
         width: 350px;
         height: 580px;
-        
         margin-top: -120px;
     }
     #banner-button4{
-        /* margin-top: 300px; */
         margin-left: 180px;
         width: 130px;  
     }
@@ -193,5 +266,47 @@
         /* padding-left: 100px; */
         margin-left: 20px;
     }
+    .card-section{
+        display: inline;
+        align-items: center;
+    }
+    .card-subsection{
+        width: 338px;
+        margin: 40px auto;
+         
+    } 
+    .habit-section{
+        width: 338px;
+         
+    }  
+    .habit-head{
+        font-size: 32px;
+    }
 
+    .run-section{
+        display: block;
+        padding: 32px;
+        /* align-items: center; */
+        width: 95%;
+        margin: 0 auto;
+    }
+    .run-subsection{
+         margin: 0;
+    }
+    .run-image{
+        width: 100%;
+        height: 150px; 
+        margin: 0;
+    }
+    .run-button{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .run-paragraph{
+         font-size: 14px;
+         opacity: .7;
+    }
+    .run-head{
+        font-size: 32px;   
+    }
 }
