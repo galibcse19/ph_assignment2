@@ -40,6 +40,9 @@
     border-radius: 46px;
     font-size: bold;
 }
+.navbar-links a:hover {
+    background-color: #e6533c;
+}
 
 .navbar-links .home{
     background-color: #e6533c;
@@ -196,6 +199,28 @@
     color: white;
     font-size: 16px;
     margin-right: 14px;
+}
+.trainer-section{
+    margin-top: 40px;
+    /* background-color: #222222; */
+}
+.trainer-section-all{
+    background-color: #222222;
+    border-radius: 16px;
+    padding: 20px;
+}
+#card-gap{
+    margin-top: 16px;
+}
+.trainer-section-1{
+    display: flex;
+    justify-content: space-around;
+}
+.trainer-section-image{
+    width: 340px;
+    height: 340px;
+    border-radius: 16px;
+    gap: 16px;
 }
 
 /* responsive design  */
