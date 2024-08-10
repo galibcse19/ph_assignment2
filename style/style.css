@@ -253,7 +253,7 @@
     }
     .navbar-icon{
         display: block;
-        margin-right: -40px;
+        margin-right: -50px;
     }
     .navbar-icon i{
         font-size: 25px;
@@ -271,15 +271,18 @@
     .two-button{
         display: flex;
         justify-content: space-between;
+        margin: 0 5px;
     }
     .banner-button1{
         padding: 8px 20px;
         font-size: 18px;
+        width: 50%;
     }
     .banner-button2{
         /* margin-left: 4px; */
         padding: 12px 20px;
         font-size: 18px;
+        width: 50%;
     }
     .banner-button3{
         padding: 16px;
