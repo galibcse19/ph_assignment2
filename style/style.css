@@ -356,6 +356,9 @@
     .run-head{
         font-size: 32px;   
     }
+    .trainer-section{
+        align-items: center;
+    }
     .trainer-section-all{
         align-items: center;
     }
