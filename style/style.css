@@ -171,6 +171,7 @@
     margin-top: 100px;
     border-radius: 18px;
     background: #222222;
+    width: 100%;
 }
 .run-image{
     width: 366px;
@@ -208,6 +209,7 @@
     background-color: #222222;
     border-radius: 16px;
     padding: 20px;
+    width: 100%;
 }
 #card-gap{
     margin-top: 16px;
@@ -217,11 +219,24 @@
     justify-content: space-around;
 }
 .trainer-section-image{
-    width: 340px;
+    width: 350px;
     height: 340px;
     border-radius: 16px;
     gap: 16px;
 }
+.trainer-data{
+    margin-top: -75px;
+    margin-left: 30px;
+    margin-bottom: 25px;
+}
+.trainer-head{
+    font-size: 24px; 
+}
+.trainer-paragraph{
+    opacity: .7;
+    line-height: 30px;
+}
+
 
 /* responsive design  */
 
@@ -234,7 +249,7 @@
     }
     .navbar-icon{
         display: block;
-        margin-right: -40px;
+        margin-right: -50px;
     }
     .navbar-icon i{
         font-size: 25px;
@@ -252,6 +267,7 @@
     .two-button{
         display: flex;
         justify-content: space-between;
+        margin-right: 15px;
     }
     .banner-button1{
         padding: 8px 20px;
@@ -334,4 +350,15 @@
     .run-head{
         font-size: 32px;   
     }
+    .trainer-section-all{
+        align-items: center;
+    }
+    .trainer-section-1{
+        display: inline;
+    }
+    .trainer-section-image{
+        width:100%;
+        margin: 5px 0 5px 0;
+    }
+     
 }
