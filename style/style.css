@@ -256,6 +256,7 @@
 }
 .hrline{
     margin:0 190px 10px 190px;
+    opacity: .5;
 }
 .footer-logo{
     color: #e6533c;
@@ -277,6 +278,91 @@
     padding: 36px 0;
     opacity: .5;
 }
+/* calculator section */
+.calculator{
+    width: 100%;
+    height: 420px;
+    background-color: #222222;
+}
+.cal-section{
+    margin: 50px 190px 10px 190px;
+    display: flex;
+    justify-content:space-between;
+    padding: 50px 0;
+}
+.cal-section-2{
+    width: 580px;
+    height: 385px;
+}
+.form-field{
+    border-radius: 10px;
+    border: none;
+    background-color: #ffffff1a;
+    color: #959393;
+    padding: 12px 20px;
+    font-size: 16px;
+    margin: 5px;
+    width: 40%;
+}
+.form-field-2{
+    border-radius: 10px;
+    border: none;
+    background-color: #ffffff1a;
+    color: #959393;
+    padding: 12px 20px;
+    font-size: 16px;
+    margin: 5px;
+    width: 47%;
+}
+.form-field-3{
+    border-radius: 10px;
+    border: none;
+    background-color: #ffffff1a;
+    color: #959393;
+    padding: 12px 20px;
+    font-size: 16px;
+    margin: 5px;
+    width: 96%;
+}
+.cal-section-2-head{
+    font-size: 28px;
+    margin-bottom: 14px;
+    padding-left: 5px;
+}
+.cal-section-2-paragraph{
+    font-size: 14px;
+    line-height: 24px;
+    opacity: .5;
+    padding-left: 5px;
+    margin-bottom: 14px;
+}
+table, th, td {
+    border: 1px solid #605e5e;
+    border-collapse: collapse;
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+
+  table,td{
+    opacity: .7;
+  }
+.cal-section-1-table{
+     text-align: left;
+     width: 310px;
+     height: 215px;
+     margin-top: 50px;
+     margin-bottom: 20px;
+}
+.cal-button{
+    padding: 16px 60px;
+    background-color: #e6533c;
+    border-radius: 42px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    margin-right: 14px;
+}
+
 
 /* responsive design  */
 
@@ -429,6 +515,29 @@
     .list-item>li{
         margin: 20px 0;
     }
-     
-     
+    .calculator{
+        width: 120%;
+        height: 100%;
+    }
+    .cal-section{
+        display: block;
+        margin: 10px 20px;
+    }
+    .cal-section-2{
+        width: 355px;
+        height: 340px;
+    }
+    .cal-section-2-head{
+        font-size: 16px;
+    }
+    .cal-section-1-table{
+        margin: 20px 0;
+    }
+    .form-field{
+        width: 35%;
+    }
+    .form-field-2{
+        width: 46%;
+    }
+    
 }
