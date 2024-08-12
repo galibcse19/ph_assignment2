@@ -375,7 +375,7 @@ table, th, td {
     }
     .navbar-icon{
         display: block;
-        margin-right: -50px;
+        /* margin-right: -50px; */
     }
     .navbar-icon i{
         font-size: 25px;
