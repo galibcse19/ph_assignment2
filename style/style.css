@@ -55,6 +55,7 @@
 
 .navbar-links .home{
     background-color: #e6533c;
+    font-weight: bold;
 }
 .navbar-icon{
     display: none; 
@@ -77,7 +78,8 @@
 }
 .banner-parapraph{
     margin: 28px 0;
-    opacity: .7;
+    opacity: .5;
+    line-height: 24px;
 }
 .banner-button1{
     padding: 16px 40px;
@@ -156,7 +158,7 @@
 }
 .habit_paragraph{
     font-size: 14px;
-    opacity: .7;
+    opacity: .5;
     line-height: 24px;
     margin: 14px 0;
     margin-bottom: 54px;
@@ -172,7 +174,7 @@
 .card-paragraph{
     font-size: 14px;
     line-height: 18px;
-    opacity: .7;
+    opacity: .5;
 }
 .run-section{
     display: flex;
@@ -197,7 +199,7 @@
     margin-bottom: 14px;
 }
 .run-paragraph{
-    opacity: .7;
+    opacity: .5;
     margin-bottom: 34px;
     line-height: 24px;
 }
@@ -242,7 +244,7 @@
     font-size: 24px; 
 }
 .trainer-paragraph{
-    opacity: .7;
+    opacity: .5;
     line-height: 30px;
 }
 .footer-section{
@@ -369,6 +371,20 @@ table, th, td {
     font-size: 16px;
     margin-right: 14px;
 }
+.calculator-header{
+    width: 600px;
+    height: 120px;
+    margin: 0 auto;
+}
+.calculator-header-head{
+    font-size: 48px;
+    margin-bottom: 14px;
+}
+.calculator-header-paragraph{
+    font-size: 14px;
+    opacity: .5;
+    line-height: 24px;
+}
 
 
 /* responsive design  */
@@ -485,7 +501,7 @@ table, th, td {
     }
     .run-paragraph{
          font-size: 14px;
-         opacity: .7;
+         opacity: .5;
     }
     .run-head{
         font-size: 32px;   
@@ -549,6 +565,15 @@ table, th, td {
     }
     .form-field-2{
         width: 46%;
+    }
+    .calculator-header{
+        width: 350px;
+        height: 120px;
+        margin: 0 30px;
+        padding-bottom: 32px;
+    }
+    .calculator-header-head{
+        font-size: 32px;
     }
     
 }
