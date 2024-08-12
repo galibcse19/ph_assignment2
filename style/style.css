@@ -369,13 +369,14 @@ table, th, td {
 @media (max-width:576px) {
     .margin-body{
         margin: 52px 20px;
+        width: 90%;
     }
     .navbar-links{
         display: none;
     }
     .navbar-icon{
         display: block;
-        /* margin-right: -50px; */
+        margin-right: -50px;
     }
     .navbar-icon i{
         font-size: 25px;
